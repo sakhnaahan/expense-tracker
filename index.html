@@ -21,6 +21,28 @@
         </div>
       </div>
     </div>
+
+    <div class="expenses-container">
+      <h2>Add new</h2>
+      <form action="submit">
+        <div>
+          <label for="income-expense">Entry type:</label>
+          <select name="income-expense" id="income-expense">
+            <option value="income">Income</option>
+            <option value="expense">Expense</option>
+          </select>
+        </div>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" placeholder="name" />
+        </div>
+        <div>
+          <label for="amount">Amount:</label>
+          <input type="number" name="amount" id="amount" placeholder="0" />
+        </div>
+        <input type="submit" />
+      </form>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
